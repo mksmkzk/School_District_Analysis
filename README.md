@@ -5,6 +5,8 @@ We were asked to analyze School District Data using Python and Pandas. Once we f
 
 ## Summary of Results
 
+### Results
+
 - When we replaced the THS 9th graders scores with NaN's, in the district analysis, we see a drop in percentaged throughout the board, with the average reading scores staying the same. (See District Summary below)
 - Since all the changes we are making are to THS, the changes we see in the School Summary are to the statistics related to THS. (See School Summary below)
 - Removing the 9th graders in THS, we see THS stay in second place on the top 5 schools, but has its percentages slightly reduced. (See Top School below) 
@@ -14,6 +16,7 @@ We were asked to analyze School District Data using Python and Pandas. Once we f
   - Scores by school size is not affected. (See Performance by Size below)
   - Scores by school type is not affected. (See Performance by Type below)
 
+### Table of Results
 
 #### Old District Summary
 ![Old District Summary](Images/DistrictSummaryOld.png)
@@ -42,5 +45,7 @@ We were asked to analyze School District Data using Python and Pandas. Once we f
 ![Performance By Type](Images/PerformanceByType.png)
 
 ## Summary
+
+### Summary of Changes to the 9th Grade THS Students
 
 When we replace the 9th grade students at THS, we see some of the following changes. The first change that we see is that we have slightly reduced percentages in the district analysis. The second change that we see is that THS performes slightly worse on the School Summary. The third change that we see is that will be seeing NaN's on the math and reading scores by grade. The fourth change that we see are the slightly lower statistics on the Top Schools chart. We get slightly worse performance with THS when we update the grades and in turn it has a slight effect on all the charts, however, because the change is not that large, we dont see the change in performance charts because the changes are smaller than the precision we are measuring to.
